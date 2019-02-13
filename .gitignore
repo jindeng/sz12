@@ -1,3 +1,8 @@
 /TestOpenSSL/Debug
 /TestOpenSSL/.vs
 /TestOpenSSL/TestOpenSSL/Debug
+
+#忽略所有的目标文件
+*.o
+#忽略所有的.a文件(静态库)
+*.a
